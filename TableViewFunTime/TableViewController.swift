@@ -62,6 +62,8 @@ class TableViewController: UITableViewController {
         
         cell.textLabel?.text = favoriteSong
 
+        print("Section: \(indexPath.section) -- Row: \(indexPath.row)")
+        
         return cell
     }
  
